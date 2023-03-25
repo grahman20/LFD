@@ -37,11 +37,11 @@ public class LFD
     private double pCatAttrs;
     
     /*
-     * this method will impute a data set with DMI and best K
-     * the missing values using DMI approach
+     * this method will discretize numerical attributes
+     * 
      * @param attrFile atrtibute file
      * @param dataFile data file having missing values
-     * @param outputFile file with imputed data
+     * @param outputFile file with discretized data
      */
 
     public void runLFD(String attrFile, String dataFile,String outputFile)
