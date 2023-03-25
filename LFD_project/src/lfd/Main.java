@@ -11,16 +11,15 @@ import java.io.InputStreamReader;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 /**
- * FIMUS imputes numerical and categorical missing values by using a data set’s 
- * existing patterns including co-appearances of attribute values, correlations 
- * among the attributes and similarity of values belonging to an attribute. 
+ * Discretization is the process of converting numerical values into categorical values. We propose a new data-driven discretization technique called low frequency discretizer (LFD) that does not require any user input. LFD uses low frequency values as cut points and thus reduces the information loss due to discretization. It uses all other categorical attributes and any numerical attribute that has already been categorized. It considers that the influence of an attribute in discretization of another attribute depends on the strength of their relationship. 
  * 
  * <h2>Reference</h2>
  * 
- * Rahman, M. G. and Islam, M. Z. (2014): FIMUS: A Framework for Imputing Missing Values Using Co-Appearance, Correlation and Similarity Analysis, Knowledge-Based Systems, 56, 311 - 327, ISSN 0950-7051, DOI information: http://dx.doi.org/10.1016/j.knosys.2013.12.005
+ * Rahman, M. G. and Islam, M. Z. (2016): Discretization of Continuous Attributes Through Low Frequency Numerical Values and Attribute Interdependency. Expert Systems with Applications, 45, 410-423. http://dx.doi.org/10.1016/j.eswa.2015.10.005.
  *  
  * @author Md Geaur Rahman <https://csusap.csu.edu.au/~grahman/>
  */
+
 public class Main {
         /** command line reader */
     BufferedReader stdIn;
