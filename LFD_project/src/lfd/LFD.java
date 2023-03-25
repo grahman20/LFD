@@ -5,7 +5,15 @@
 
 package lfd;
 import java.io.*;
-
+/**
+ * Discretization is the process of converting numerical values into categorical values. We propose a new data-driven discretization technique called low frequency discretizer (LFD) that does not require any user input. LFD uses low frequency values as cut points and thus reduces the information loss due to discretization. It uses all other categorical attributes and any numerical attribute that has already been categorized. It considers that the influence of an attribute in discretization of another attribute depends on the strength of their relationship. 
+ * 
+ * <h2>Reference</h2>
+ * 
+ * Rahman, M. G. and Islam, M. Z. (2016): Discretization of Continuous Attributes Through Low Frequency Numerical Values and Attribute Interdependency. Expert Systems with Applications, 45, 410-423. http://dx.doi.org/10.1016/j.eswa.2015.10.005.
+ *  
+ * @author Md Geaur Rahman <https://csusap.csu.edu.au/~grahman/>
+ */
 /**
  *
  * @author grahman
